@@ -69,9 +69,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter layout demo',
       home: Scaffold(
-        // appBar: AppBar(
-        //   title: Text('Flutter layout demo'),
-        // ),
+        appBar: AppBar(
+          title: Text('Flutter layout demo'),
+        ),
         // this body: Center used to say Hello There
         // now renders "Component"/Widget
         // Center changed to Column to render widgets
